@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Maybelline Products</title>
 </head>
 <body>
@@ -23,12 +25,12 @@
                 <input type="hidden" name="image" value="<%= makeup.image %> ">
                 <input type="hidden" name="description" value="<%= makeup.description %> ">
                 <img src="<%= makeup.image %> " alt="makeup">
-                <h4> <%= makeup.name %> </h4>
-                <p> <%= makeup.price %> </p>
+                <h2> <%= makeup.name %> </h2>
+                <h3> <%= makeup.price %> </h3>
                 <p> <%= makeup.description %> </p>
-            </div>
             <button>Add to card</button>
         </form>
+    </div>
         <% }) %> 
     </section>
         

@@ -1,0 +1,30 @@
+
+
+.ProductSection{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 10px;
+text-align: center;
+}
+.ProductSection p,.details p {
+width: 100%;
+padding: 5px;
+}
+.ProductSection h2,.details h2 {
+    color: rgba(207, 8, 101, 0.664);
+    font-weight: bolder;
+    padding: 5px;
+}
+.ProductSection div {
+border-left: 25px solid rgba(172, 9, 85, 0.664);
+border-radius: 5px;
+height: 800px;
+}
+
+.details{
+text-align: center;
+border-left: 25px solid rgba(172, 9, 85, 0.664);
+border-radius: 5px;
+height: 600px;
+margin: auto;
+}
